@@ -28,7 +28,7 @@ bower install
 Add an import statement to your sass file:
 
 ```sass
-@import "billy-bootstrap/css/billy-bootstrap";
+@import "billy-bootstrap/scss/billy-bootstrap";
 ```
 
 The [bootstrap project](https://github.com/twbs/bootstrap) is a dependency of
