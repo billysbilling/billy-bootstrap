@@ -1,0 +1,25 @@
+html, input, textarea, button, text {
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    padding-top: 65px;
+}
+
+//Fix font-weight: bold
+b,
+strong,
+dt,
+th,
+label{
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.page-header {
+    margin-top: 0px;
+}

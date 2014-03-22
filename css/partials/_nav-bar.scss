@@ -1,0 +1,26 @@
+.navbar-default {
+    border: 0px;
+
+    .navbar-nav {
+        border-left: 1px solid rgba(#fff, 0.15);
+
+        li {
+            border-right: 1px solid rgba(#fff, 0.15);
+        }
+    }
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: $navbar-height;
+
+    svg {
+        float: left;
+        width: 32px;
+        height: $navbar-height;
+        margin-right: 12px;
+    }
+}
