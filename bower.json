@@ -9,6 +9,6 @@
   "dependencies": {
     "bootstrap": "twbs/bootstrap#~3.1.1",
     "bootstrap-sass": "twbs/bootstrap-sass#~3.1.1",
-    "style-guide": "billysbilling/style-guide#>=1.1 <2"
+    "style-guide": "billysbilling/style-guide#broccoli"
   }
 }

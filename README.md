@@ -28,16 +28,14 @@ bower install
 Add an import statement to your sass file:
 
 ```sass
-@import "billy-bootstrap/scss/billy-bootstrap";
+@import "vendor/billy-bootstrap/billy-bootstrap";
 ```
 
 The [bootstrap project](https://github.com/twbs/bootstrap) is a dependency of
 billy-bootstrap. So you can `require` `bootstrap.js` in your JavaScript like
 this:
 
-```javascript
-require('bootstrap');
-```
+TODO: How to do it with broccoli?
 
 
 ## Design recipes
@@ -50,8 +48,8 @@ project.
 ```html
 <div class="navbar navbar-default navbar-fixed-top">
     <div class="navbar-header">
-        <a href="/">
-            <img src="/path/to/billy-face.png"/>
+        <a href="/" class="navbar-brand">
+            <img src="/path/to/billy-face.svg"/>
             billy's example application
         </a>
     </div>
