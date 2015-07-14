@@ -14,7 +14,7 @@ Add `billy-bootstrap` to your `bower.json` file. Example:
 ```javascript
 {
     "dependencies": {
-        "billy-bootstrap": "billysbilling/billy-bootstrap#~1.0.0"
+        "billy-bootstrap": "billysbilling/billy-bootstrap#^1.3.0"
     }
 }
 ```
@@ -28,14 +28,19 @@ bower install
 Add an import statement to your sass file:
 
 ```sass
-@import "vendor/billy-bootstrap/billy-bootstrap";
+@import "bower_components/billy-bootstrap/billy-bootstrap";
 ```
 
-The [bootstrap project](https://github.com/twbs/bootstrap) is a dependency of
-billy-bootstrap. So you can `require` `bootstrap.js` in your JavaScript like
-this:
+You can also add stylesheets for individual components using:
 
-TODO: How to do it with broccoli?
+```sass
+@import "bower_components/billy-bootstrap/styles/components/nav-bar";
+```
+
+See the `styles/components` folder for available components.
+
+The [bootstrap project](https://github.com/twbs/bootstrap) is a dependency of
+billy-bootstrap. So you can include `bootstrap.js` in your JavaScript bundle by including the files found in your project's `bower_components/bootstrap` folder.
 
 
 ## Design recipes
@@ -44,6 +49,8 @@ TODO: How to do it with broccoli?
 
 Copy `images/billy-face.svg` or `images/billy-face.png` into your
 project.
+
+Add `body-with-fixed-navbar` to your `<body>` tag.
 
 ```html
 <div class="navbar navbar-default navbar-fixed-top">
