@@ -7,7 +7,7 @@
     "**/.*"
   ],
   "dependencies": {
-    "bootstrap": "twbs/bootstrap#~3.1.1",
+    "bootstrap": "twbs/bootstrap#^3.3.5",
     "bootstrap-sass": "twbs/bootstrap-sass#~3.1.1",
     "style-guide": "billysbilling/style-guide#broccoli"
   }
