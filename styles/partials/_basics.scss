@@ -5,7 +5,6 @@ html, input, textarea, button, text {
 
 body {
     cursor: default;
-    padding-top: 65px;
 }
 
 //Fix font-weight: bold
@@ -17,8 +16,12 @@ label{
     font-weight: 600;
 }
 
-h1 {
+h1, h2, h3 {
     font-weight: 300;
+}
+
+h4 {
+    font-weight: 400;
 }
 
 .page-header {

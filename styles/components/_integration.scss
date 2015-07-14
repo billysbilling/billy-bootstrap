@@ -1,0 +1,81 @@
+$integration-logo-height: 45px;
+
+.integration-main {
+	background-color: #e8eff4; //TODO: This should be an "official" color
+	padding: $standard-padding 0;
+}
+
+.integration-header {
+	background-color: $blue;
+	padding: $standard-padding;
+	margin-bottom: $standard-padding;
+	color: #fff;
+
+	h1 {
+		margin: 0;
+		line-height: $integration-logo-height;
+	}
+
+	a {
+		color: #fff;
+	}
+}
+
+.integration-logo {
+	float: right;
+
+	img {
+		display: block;
+		max-width: 100%;
+		max-height: $integration-logo-height;
+	}
+}
+
+.integration-meta {
+	border-bottom: 1px solid $blue-gray-light;
+	margin-bottom: $standard-padding;
+}
+
+.integration-step {
+	margin: 50px 0;
+}
+
+.integration-step-no {
+	$no-size: 40px;
+	background-color: $blue;
+	width: $no-size;
+	height: $no-size;
+	border-radius: $no-size;
+	line-height: $no-size;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	margin: 0 auto 10px auto;
+}
+
+.integration-img-framed {
+	border: 1px solid $blue-gray-light;
+}
+
+.integration-footer {
+	padding: $standard-padding 0;
+}
+
+.integration-session {
+	margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+	.integration-logo {
+		float: none;
+		margin-bottom: 10px;
+
+		img {
+			margin: 0 auto;
+		}
+	}
+
+	.integration-main {
+		padding-top: 0;
+	}
+}

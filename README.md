@@ -72,3 +72,8 @@ You can replace `<img src="/path/to/billy-face.png"/>` with
 
 It looks coolest if you keep the application name in all lowercase to match our
 logo (in this case "billy's example application").
+
+
+### Integration sites
+
+See [billy-minuba-webapp)[https://github.com/billysbilling/billy-minuba-webapp] for an example. Check under `app/templates/application.hbs` and `app/templates/login.hbs`.
