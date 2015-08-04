@@ -83,4 +83,4 @@ logo (in this case "billy's example application").
 
 ### Integration sites
 
-See [billy-minuba-webapp)[https://github.com/billysbilling/billy-minuba-webapp] for an example. Check under `app/templates/application.hbs` and `app/templates/login.hbs`.
+See [billy-minuba-webapp](https://github.com/billysbilling/billy-minuba-webapp) for an example. Check under `app/templates/application.hbs` and `app/templates/login.hbs`.
