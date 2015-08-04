@@ -14,7 +14,7 @@ Add `billy-bootstrap` to your `bower.json` file. Example:
 ```javascript
 {
     "dependencies": {
-        "billy-bootstrap": "billysbilling/billy-bootstrap#^1.3.0"
+        "billy-bootstrap": "billysbilling/billy-bootstrap#^0.2.0"
     }
 }
 ```
